@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Find - Kokoa Talk</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No Service</span>
+                <i class="fa-solid fa-wifi"></i>              
+            </div>
+            <div class="status-bar__column">
+                <span>18:43</span>
+            </div>
+            <div class="status-bar__column">
+                <span>110%</span>    
+                 <!-- Battery Icon -->
+                 <i class="fa-solid fa-battery-three-quarters fa-lg"></i>
+                 <!-- Lightning Icon -->  
+                 <i class="fa-solid fa-bolt"></i>     
+            </div>              
+        </div>  
+
+        <header class="screen-header">
+            <h1 class="screen-header__title">Find</h1>
+            <div class="screen-header__icons">
+                <span>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </span>
+
+                <span> 
+                    <i class="fa-solid fa-gear"></i>
+                </span>
+            </div>
+        </header>
+
+        <main class="main-screen">
+            <!-- icon row -->
+            <div class="icon-row">
+                <div class="icon-row__icon">
+                    <i class="fa-solid fa-qrcode"></i>
+                    <span>QR Code</span>
+                </div>
+                <div class="icon-row__icon">
+                    <i class="fa-regular fa-address-book"></i>
+                    <span>Add by Contacts</span>
+                </div>
+                <div class="icon-row__icon">
+                    <i class="fa-solid fa-fingerprint"></i>
+                    <span>Add by ID</span>
+                </div>
+                <div class="icon-row__icon">
+                    <i class="fa-regular fa-envelope"></i>
+                    <span>Invite</span>
+                </div>
+            </div>
+            <!-- recommended friends -->
+             <div class="recommended-friends">
+                <div class="recommended-friends__title">Recommended Friends</div>
+                <span>You have no recommended friends.</span>
+            <!-- open chat -->
+            </div class="open-chat">            
+                <div class="open-chat__header">            
+                    <div class="spen-chat__title">Open Chat</div>
+                    <span>Go to Open Chat Home<i class="fa-solid fa-chevron-right fa-xs"></i></span>
+                </div>  
+                <div class="open-post">
+                    <div class="open-post__column">
+                        <h5 class="open-post__title">#LeagueOfLegends</h5>
+                        <div class="open-post__hashtags">#geng#chovy#riotgames</div>
+                        <div class="open-post__members">
+                            <img src="img/lol_viego.jpg" />
+                            <span class="open-post__member-count">802 open-post__members</span>
+                            <div class="divider"></div>
+                            <span class="open-post__member-status">Active</span>
+                        </div>
+                    </div>
+                    <div class="open-post__column">
+                        <div class="open-post__photo">
+                            <img src="img/openchat_geng.png" />
+                            <div class="open-post__heart-count"> 
+                                <i class="fa-solid fa-heart fa-xs"></i>
+                                <span>2,025</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="open-post">
+                    <div class="open-post__column">
+                        <h5 class="open-post__title">#Arance</h5>
+                        <div class="open-post__hashtags">#jinx#vi</div>
+                        <div class="open-post__members">
+                            <img src="img/lol_ezreal.png" />
+                            <span class="open-post__member-count">802 open-post__members</span>
+                            <div class="divider"></div>
+                            <span class="open-post__member-status">Active</span>
+                        </div>
+                    </div>
+                    <div class="open-post__column">
+                        <div class="open-post__photo">
+                            <img src="img/openchat_arcane.png" />
+                            <div class="open-post__heart-count"> 
+                                <i class="fa-solid fa-heart fa-xs"></i>
+                                <span>1,945</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+             </div>
+
+
+         </main>
+
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__btn">
+                    <a class="nav__link" href="friends.html">
+                        <i class="fa-regular fa-user fa-2x"></i>                        </i>
+                    </a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__link" href="chats.html">
+                        <span class="nav__notification badge">1</span>
+                        <i class="fa-regular fa-comment fa-2x">
+                        </i>
+                    </a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__link" href="find.html">
+                        <i class="fa-solid fa-magnifying-glass fa-2x">
+                        </i>
+                    </a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__link" href="more.html">
+                        <div class="red_dot"></div>
+                        <i class="fa-solid fa-ellipsis fa-2x">
+                        </i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div id="no-mobile">
+            <span>your screen is too big T.T</span>
+        </div>
+
+        <script src="https://kit.fontawesome.com/0a4d05858a.js" crossorigin="anonymous"></script>
+    </body>
+</html>
+
+
